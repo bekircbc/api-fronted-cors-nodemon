@@ -1,3 +1,58 @@
-.App {
-  text-align: center;
+body {
+	background-color: #333;
+	color: #ccc;
+	padding: 20px;
+	font-size: 1.3rem;
+
+	a {
+		color: #eee;
+		text-decoration: none;
+	}
+
+	a.active {
+		color: yellow;
+	}
+
+	.spinner {
+		color: #aaa;
+		font-size: 3rem;
+		animation: spin infinite 2s linear;
+	}
+
+	@keyframes spin {
+		from {
+			transform: rotate(0deg);
+		}
+
+		to {
+			transform: rotate(360deg);
+		}
+	}
+
+	.books {
+		.book {
+			background-color: #222;
+			margin-bottom: 10px;
+			padding: 20px;
+			display: flex;
+			width: 600px;
+
+			img {
+				height: 160px;
+			}
+
+			.info {
+				margin-left: 10px;
+
+				.title {
+					color: rgb(203, 159, 76);
+				}
+
+				.description {
+					font-style: italic;
+					font-size: 1rem;
+				}
+			}
+		}
+	}
 }
