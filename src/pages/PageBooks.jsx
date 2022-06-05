@@ -4,7 +4,7 @@ import { FaSpinner } from 'react-icons/fa';
 import FadeIn from 'react-fade-in';
 
 // const url = 'http://localhost:4433';
-const url = 'https://ejt-howto-test-api.herokuapp.com';
+const url = 'https://api-backend-cors-nodemon.herokuapp.com/';
 
 export const PageBooks = () => {
 	const [books, setBooks] = useState([]);
