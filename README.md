@@ -1,7 +1,7 @@
 # api-frontend-cors-nodemon
 
--   [https://api-frontend-cors-nodemon.netlify.app/]
+-   [Frontend Link](https://api-frontend-cors-nodemon.netlify.app/)
 
-# api-backend-heroku-nodemon
+# API
 
--   [https://api-backend-cors-nodemon.herokuapp.com/]
+-   [API Link](https://apis-for-beginner.bscebeci.de/api/books)
